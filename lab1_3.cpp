@@ -14,6 +14,7 @@ int main() {
     ++size;
     l = s;
     k = s;
+    letters = letters + s.size();
     while (doc >> s) {
         ++size;
         letters = letters + s.size();
